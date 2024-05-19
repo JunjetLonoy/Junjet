@@ -43,8 +43,8 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 Once the contract is deployed, you can utilize functions like mint, burn, token abbreviation (tokenAbbrv), token name (tokenName), and total supply (totalSupply). To begin, locate your address under "Deploy and run transactions" and copy it. Then, in the "Deployed/Unpinned Contracts" section, check the totalSupply function to confirm if your token supply starts at 0. This function works similarly to the balance function but requires the account address. Next, to transact tokens, call the mint function and paste your account address along with the desired value, such as minting at least 2000 tokens. After minting, verify the token balance using either totalSupply or Balance functions. For burning tokens, use the burn function to deduct tokens from the address. For instance, deducting 1000 tokens requires pasting the address and specifying the value as 500. Verify the deduction by checking the token supply or balance again.
 
 # Author
-NTC PH Junjet A. Lonoy
-@metacraftersio
+- NTC PH Junjet A. Lonoy
+- @metacraftersio
 
 # License 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
