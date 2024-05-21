@@ -21,7 +21,7 @@ function listNFTs() {
 }
 
 function getTotalSupply() {
-    console.log(Total Supply: ${NFTs.length});
+    console.log(`Total Supply: ${NFTs.length}`);
     console.log("------------------");
 }
 
@@ -33,5 +33,4 @@ mintNFT({name: "Jeans", size: "Medium", properties: "Denim", color: "Black", bra
 mintNFT({name: "Sneaker", size: "US 9", properties: "Canvas", color: "White", brand: "Adidas"});
 mintNFT({name: "Watch", size: "One Size", properties: "Stainless Steel", color: "Silver", brand: "Rolex"});
 listNFTs();
-
 getTotalSupply();
